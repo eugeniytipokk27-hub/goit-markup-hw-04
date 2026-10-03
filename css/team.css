@@ -21,7 +21,7 @@
 
 .team-member {
   width: calc((100% - 72px) / 4);
-  height: 380px;
+  height: 428px;
   background: #ffffff;
   border-radius: 0 0 4px 4px;
   box-shadow:
@@ -56,4 +56,33 @@
 
 .team-card-content {
   padding: 32px 16px;
+}
+
+.team-social-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  list-style: none;
+  margin-top: 8px;
+}
+
+.team-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
+.team-social-iteam {
+  width: 16px;
+  height: 16px;
+  fill: #ffffff;
+}
+.team-social-icon {
+  width: 16px;
+  height: 16px;
+  color: #f4f4fd;
 }
