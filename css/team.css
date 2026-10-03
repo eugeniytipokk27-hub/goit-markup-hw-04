@@ -74,15 +74,19 @@
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
+  transition: background-color 250ms ease;
 }
 
-.team-social-iteam {
-  width: 16px;
-  height: 16px;
-  fill: #ffffff;
+.team-social-item {
+  width: 40px;
+  height: 40px;
 }
 .team-social-icon {
   width: 16px;
   height: 16px;
   color: #f4f4fd;
+}
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: #404bbf;
 }

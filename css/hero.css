@@ -10,6 +10,8 @@
   border-radius: 4px;
   padding: 16px 32px;
   border: none;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms ease;
 }
 .hero {
   padding: 188px 0;
@@ -21,9 +23,11 @@
       rgba(46, 47, 66, 0.7) 0%,
       rgba(46, 47, 66, 0.7) 100%
     ),
-    url("/goit-markup-hw-04/images/hero-bg.jpg");
+    url("../images/hero-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .hero-title {

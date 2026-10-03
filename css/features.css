@@ -27,7 +27,7 @@
 
 .feature-icon {
   width: 64px;
-  height: 64;
+  height: 64px;
   color: #4d5ae5;
 }
 
@@ -48,4 +48,7 @@
   letter-spacing: 0.02em;
   color: #434455;
   margin-top: 8px;
+}
+.feature-icon-box {
+  margin-bottom: 8px;
 }
